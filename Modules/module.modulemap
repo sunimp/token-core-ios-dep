@@ -1,9 +1,0 @@
-module libscrypt [system][extern_c] {
-  header "../libscrypt/libscrypt.h"
-  export *
-}
-
-module CoreBitcoin [system][extern_c] {
-  header "../CoreBitcoin/CoreBitcoin.h"
-  export *
-}
