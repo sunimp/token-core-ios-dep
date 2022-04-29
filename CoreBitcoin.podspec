@@ -13,10 +13,10 @@ Pod::Spec.new do |s|
     file: "LICENSE"
   }
 
-  s.author        = { "James Chen" => "james@ashchan.com" }
-  s.platform      = :ios, "9.0"
+  s.author        = { "Yang Guang" => "holaux@gmail.com" }
+  s.platform      = :ios, "12.0"
 
-  s.source        = { :git => "https://github.com/consenlabs/ios-token-core.git", :tag => "#{s.version}" }
+  s.source        = { :git => "https://github.com/sunimp/ios-token-core.git", :tag => "#{s.version}" }
   s.source_files  = "CoreBitcoin/*.{h,m,c}", "libscrypt/*.{h,m,c}"
   s.exclude_files = ['*+Tests.{h,m}']
   s.requires_arc = true
